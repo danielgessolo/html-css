@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        thead{
+            position: sticky;
+            top: -1px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+
+        /* Na pseudo classe nth-child(x) onde x pode ser odd (impar), even(par), 2n, 3n, 4n, ... */
+        tbody >tr:nth-child(2n){
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas grandes</h1>
+    <!-- 
+        ANATOMIA DE TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+     -->
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet.lorem200 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto sit nisi nostrum tenetur quis. Eaque pariatur tempora blanditiis excepturi magni placeat ut, esse soluta assumenda cum, sunt at praesentium reiciendis voluptatem nostrum ex, id accusantium quisquam quae nesciunt rerum. Maxime aut earum quae quo placeat nostrum sit dolorum quos aperiam suscipit quia laboriosam quidem fugiat numquam voluptas a aspernatur cumque, recusandae dolor. Repudiandae officiis quasi odio omnis consequatur possimus? Neque voluptates quaerat, repellat voluptate maiores harum dolor assumenda numquam quo corporis dicta laboriosam amet cupiditate fuga optio vel repellendus eligendi veritatis ipsa! Tempore provident optio esse eveniet aut ipsum a voluptatum aspernatur, consectetur quam sequi praesentium ab repudiandae corrupti voluptates numquam sapiente repellendus alias placeat quae soluta atque delectus voluptas dignissimos? Necessitatibus voluptatem voluptatibus laboriosam labore alias. Facere provident quo modi labore dolores delectus dolorum voluptatibus iusto in adipisci corrupti expedita a ipsam reprehenderit fuga reiciendis eaque illum, sequi explicabo, unde, eius soluta voluptas? Excepturi deserunt distinctio error. Veritatis, beatae temporibus. Ab pariatur modi saepe, deleniti veritatis ipsum molestiae, laboriosam ullam, sapiente aut recusandae facere perspiciatis quaerat fuga vero dicta neque in accusamus culpa. Iste perspiciatis a blanditiis, quis hic eos numquam assumenda, ducimus est ullam saepe qui laborum libero?</p>
+    <p>Lorem ipsum dolor sit amet.lorem200 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto sit nisi nostrum tenetur quis. Eaque pariatur tempora blanditiis excepturi magni placeat ut, esse soluta assumenda cum, sunt at praesentium reiciendis voluptatem nostrum ex, id accusantium quisquam quae nesciunt rerum. Maxime aut earum quae quo placeat nostrum sit dolorum quos aperiam suscipit quia laboriosam quidem fugiat numquam voluptas a aspernatur cumque, recusandae dolor. Repudiandae officiis quasi odio omnis consequatur possimus? Neque voluptates quaerat, repellat voluptate maiores harum dolor assumenda numquam quo corporis dicta laboriosam amet cupiditate fuga optio vel repellendus eligendi veritatis ipsa! Tempore provident optio esse eveniet aut ipsum a voluptatum aspernatur, consectetur quam sequi praesentium ab repudiandae corrupti voluptates numquam sapiente repellendus alias placeat quae soluta atque delectus voluptas dignissimos? Necessitatibus voluptatem voluptatibus laboriosam labore alias. Facere provident quo modi labore dolores delectus dolorum voluptatibus iusto in adipisci corrupti expedita a ipsam reprehenderit fuga reiciendis eaque illum, sequi explicabo, unde, eius soluta voluptas? Excepturi deserunt distinctio error. Veritatis, beatae temporibus. Ab pariatur modi saepe, deleniti veritatis ipsum molestiae, laboriosam ullam, sapiente aut recusandae facere perspiciatis quaerat fuga vero dicta neque in accusamus culpa. Iste perspiciatis a blanditiis, quis hic eos numquam assumenda, ducimus est ullam saepe qui laborum libero?</p>
+    <p>Lorem ipsum dolor sit amet.lorem200 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto sit nisi nostrum tenetur quis. Eaque pariatur tempora blanditiis excepturi magni placeat ut, esse soluta assumenda cum, sunt at praesentium reiciendis voluptatem nostrum ex, id accusantium quisquam quae nesciunt rerum. Maxime aut earum quae quo placeat nostrum sit dolorum quos aperiam suscipit quia laboriosam quidem fugiat numquam voluptas a aspernatur cumque, recusandae dolor. Repudiandae officiis quasi odio omnis consequatur possimus? Neque voluptates quaerat, repellat voluptate maiores harum dolor assumenda numquam quo corporis dicta laboriosam amet cupiditate fuga optio vel repellendus eligendi veritatis ipsa! Tempore provident optio esse eveniet aut ipsum a voluptatum aspernatur, consectetur quam sequi praesentium ab repudiandae corrupti voluptates numquam sapiente repellendus alias placeat quae soluta atque delectus voluptas dignissimos? Necessitatibus voluptatem voluptatibus laboriosam labore alias. Facere provident quo modi labore dolores delectus dolorum voluptatibus iusto in adipisci corrupti expedita a ipsam reprehenderit fuga reiciendis eaque illum, sequi explicabo, unde, eius soluta voluptas? Excepturi deserunt distinctio error. Veritatis, beatae temporibus. Ab pariatur modi saepe, deleniti veritatis ipsum molestiae, laboriosam ullam, sapiente aut recusandae facere perspiciatis quaerat fuga vero dicta neque in accusamus culpa. Iste perspiciatis a blanditiis, quis hic eos numquam assumenda, ducimus est ullam saepe qui laborum libero?</p>
+</body>
+</html>
