@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo formulário de teste</title>
+</head>
+<body>
+    <h1>
+        Formulário com campo de senha
+    </h1>
+    <form action="formulario.php" method="POST" autocomplete="on">
+        <p>
+            <label for="iuser">Usuário:</label> 
+            <input type="text" name="user" id="iuser" required minlength="5" maxlength="15" autocomplete="username" placeholder="DIGITE O USUARIO">
+        </p>
+        <p>
+            <label for="ipass">Senha:</label> 
+            <input type="password" name="pass" id="ipass" required minlength="8" maxlength="20" autocomplete="current-password" placeholder="DIGITE SUA SENHA">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar tudo">
+        </p>
+    </form>
+</body>
+</html>
